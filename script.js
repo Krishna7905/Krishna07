@@ -16,3 +16,11 @@ function plusSlides(n) {
     slideIndex += n - 1; // Adjust index for next/prev control
     showSlides();
 }
+
+
+function toggleMenu() {
+    const burger = document.querySelector('.burger');
+    const navbar = document.querySelector('.navbar');
+    burger.classList.toggle('toggle');
+    navbar.classList.toggle('active');
+}
