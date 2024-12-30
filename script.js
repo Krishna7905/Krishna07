@@ -17,10 +17,5 @@ function plusSlides(n) {
     showSlides();
 }
 
+function toggleMenu() { const burger = document.querySelector('.burger'); const navbar = document.querySelector('.navbar'); burger.classList.toggle('toggle'); navbar.classList.toggle('active'); }
 
-function toggleMenu() {
-    const burger = document.querySelector('.burger');
-    const navbar = document.querySelector('.navbar');
-    burger.classList.toggle('toggle');
-    navbar.classList.toggle('active');
-}
