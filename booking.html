@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking | Vehicle Sales</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
-            
+
             <div class="logo">KrishnaG Cars</div>
-             <div class="burger" onclick="toggleMenu()">
+            <div class="burger" onclick="toggleMenu()">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
@@ -39,6 +41,13 @@
                 <option value="vehicle2">Defender</option>
                 <option value="vehicle3">Range Rover</option>
             </select>
+            <label for="Seater">Seater Interested:</label>
+            <select name="Seater" id="Seater">
+                <!-- <option value="select ">Please Select Seater</option> -->
+                <option value="5 ">5 Seater</option>
+                <option value="7 ">7 Seater</option>
+                <option value="9 ">9 Seater</option>
+            </select>
             <button type="submit">Book Now</button>
         </form>
     </section>
@@ -49,4 +58,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
