@@ -30,16 +30,16 @@
 
     <section id="booking">
         <h2>Booking</h2>
-        <form>
+        <form action="connect.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="vehicle">Vehicle Interested:</label>
             <select id="vehicle" name="vehicle">
-                <option value="vehicle1">Discovery</option>
-                <option value="vehicle2">Defender</option>
-                <option value="vehicle3">Range Rover</option>
+                <option value="Discovery" >Discovery</option>
+                <option value="Defender" >Defender</option>
+                <option value="Range Rover" >Range Rover</option>
             </select>
             <label for="Seater">Seater Interested:</label>
             <select name="Seater" id="Seater">
@@ -48,7 +48,7 @@
                 <option value="7 ">7 Seater</option>
                 <option value="9 ">9 Seater</option>
             </select>
-            <button type="submit">Book Now</button>
+            <button type="submit" name="book">Book Now</button>
         </form>
     </section>
 
